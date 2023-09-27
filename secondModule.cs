@@ -106,3 +106,36 @@ public static void Main(string[] args)
 		Console.WriteLine($"{city} is the capital of the United Kingdom. and the capital is{capital}");
 	}
 }
+
+//comparison operators
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int x = 7;
+		
+		Console.WriteLine(x == 7);
+		Console.WriteLine(x!=8);
+		Console.WriteLine(x > 10);
+		Console.WriteLine(x < 2);
+		Console.WriteLine(x >= 7);
+		Console.WriteLine(x <= 7);
+	}
+}
+
+//fav state if
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int purchase = 1700;
+		if (purchase>=1500)
+		{
+			Console.WriteLine("Discount!");
+		}
+	}
+}
