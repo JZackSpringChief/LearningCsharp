@@ -20,3 +20,51 @@ public static void Main(string[] args)
 double price = 50;
 double rate = 1.2;
 price*=rate;
+
+// user inpute Console.Readline to get info;
+//type conversion; ex
+string text = "5";
+int number1 = Convert.ToInt32(text);
+// cannot convert strings like "hello" to and int
+//can conver to string using Convert.ToString(); method. as well as these. .ToBoolean, .ToChar, .ToDouble, .ToInt16, 32, 64 => converts to bit
+
+//ex
+using System;
+
+public class Program
+{
+public static void Main(string[] args)
+	{
+		//taking inputs
+		string input1 = Console.ReadLine();
+		string input2 = Console.ReadLine();
+
+		//converting to int
+		int number1 = Convert.ToInt32(input1);
+		int number2 = Convert.ToInt32(input2);
+
+		//calculating the sum
+		int result = number1 + number2;
+
+		Console.WriteLine(result);
+	}
+}
+
+//this way is more efficient
+using System;
+
+public class Program
+{
+public static void Main(string[] args)
+	{
+		/* taking the inputs and
+		converting them to int */
+		int number1 = Convert.ToInt32(Console.ReadLine());
+		int number2 = Convert.ToInt32(Console.ReadLine());
+
+		//calculating the sum
+		int result = number1 + number2;
+
+		Console.WriteLine(result);
+	}
+}
