@@ -86,6 +86,23 @@ public class Program
 {
 public static void Main(string[] args)
 	{
+
 		Console.WriteLine("One\nTwo\nThree");
+	}
+}
+
+// we can also us \t to denote a tab and for a verbatim string we use "@"
+
+//using interpolated string ex
+using System;
+
+public class Program
+{
+public static void Main(string[] args)
+	{
+		string city = "London";
+        string capital = "Ontario";
+
+		Console.WriteLine($"{city} is the capital of the United Kingdom. and the capital is{capital}");
 	}
 }
