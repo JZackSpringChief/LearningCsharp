@@ -67,4 +67,25 @@ public static void Main(string[] args)
 
 		Console.WriteLine(result);
 	}
+}// more on strings
+// how to quote with "" in c#
+using System;
+
+public class Program
+{
+public static void Main(string[] args)
+	{
+		Console.WriteLine("He said \"I am back!\"");
+	}
+}
+
+// if we want to break and run on seperate lines use the following
+using System;
+
+public class Program
+{
+public static void Main(string[] args)
+	{
+		Console.WriteLine("One\nTwo\nThree");
+	}
 }
