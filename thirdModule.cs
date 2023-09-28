@@ -261,3 +261,62 @@ public class Program
 		}
 	}
 }
+
+// the ternary operator syntax example variable = condition ? expression1:expression2 ex
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int age = 42;
+		string isAdult = age<18 ? "Too young": "Old enough";
+
+		Console.WriteLine(isAdult);
+	}
+}
+
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		double bill = 1800;
+		bill = bill>=1500 ? bill * 0.85 : bill;
+
+		Console.WriteLine(bill);
+	}
+}
+
+// Guess the word! 
+ 
+// Let’s write a program for a guessing game! The program takes the hidden word and the attempted 
+//word as input and declares a variable for the result. 
+// The player wins if the values are equal. 
+//   
+// Task 
+// Complete the code to output "You win" if the word is guessed, and "You lose" if it's not. 
+//   
+// Input Example 
+// Home 
+// Roof 
+//   
+// Output Example 
+// You lose
+
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        string answer = Console.ReadLine();
+        string attempt = Console.ReadLine();
+
+        string result;
+        result = answer == attempt ? "You win" : "You lose";
+
+        Console.WriteLine(result);
+    }
+}
