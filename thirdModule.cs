@@ -187,3 +187,77 @@ public class Program
         
     }
 }
+
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int choice = 2;
+
+		if(choice==1)
+		{
+			Console.WriteLine("Sports");
+		}
+		else if(choice==2)
+		{
+			Console.WriteLine("Business");
+		}
+		else if(choice==3)
+		{
+			Console.WriteLine("Technology");
+		}
+	}
+}
+
+//switch statements
+
+using System;
+
+public class Program
+{
+  static void Main(string[] args)
+	{
+	  int choice = 2;
+
+	  switch(choice)
+	  {
+		case 1:
+		  Console.WriteLine("Sports");
+		  break;
+			
+		case 2:
+		  //match!
+		  Console.WriteLine("Business");
+		  break;
+
+		case 3:
+		  Console.WriteLine("Technology");
+		  break;			
+	  }
+  }
+}
+
+//if there is no proper input we add a default at the end of the switch case; ex
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		string color = "yellow";
+		switch(color)
+		{
+		  case "blue": 
+			Console.WriteLine("This is blue.");
+			break;
+		  case "red": 
+			Console.WriteLine("This is red.");
+			break;
+		  default: 
+			Console.WriteLine("Color not found.");
+			break;
+		}
+	}
+}
