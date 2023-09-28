@@ -103,3 +103,17 @@ public class Program
 }
 
 //for loops are the go to method
+
+public class Program 
+{
+    public static void Main(string[] args)
+    {
+        int number Covert.ToInt32(Console.Readline());
+
+        while(number >= 0)
+        {
+            Console.WriteLine(number);
+            number--;
+        }
+    }
+}
