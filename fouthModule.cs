@@ -117,3 +117,80 @@ public class Program
         }
     }
 }
+//break statments with loops
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		for(int i = 0; i<=10; i++)
+		{
+			if(i==5)
+			{
+				break;
+			}
+			Console.WriteLine(i);
+		}
+	}
+}
+
+//break in while loop
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int num = 1;
+		while(num<=10)
+		{
+			if(num == 3)
+			{
+				break;
+			}
+		Console.WriteLine(num);
+		num++;
+		}
+	}
+}
+
+//continue statement used to skip an iteration of the loop and continue from the next one
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		for(int i = 0; i<=10; i++)
+		{
+			if(i==5)
+			{
+				continue;
+			}
+			Console.WriteLine(i);
+		}
+	}
+}
+
+//modulus and divisable by 5
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        int floors = Convert.ToInt32(Console.ReadLine());
+
+        //your code goes here
+        	for(int i = 1; i<=floors; i++)
+        	{
+        		if(i%5!=0)
+        		{
+        			continue;
+        		}
+        		Console.WriteLine(i);
+        	}
+        
+    }
+}
