@@ -44,3 +44,22 @@ public class Program
         }
     }
 }
+
+using System;
+
+
+//while loops
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int x = 5;
+
+		while(x>0)
+		{
+			Console.WriteLine(x);
+			x--;
+		}
+	}
+}
+//if condition is never false, the while loop will run forever
