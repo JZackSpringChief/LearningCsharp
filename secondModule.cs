@@ -139,3 +139,47 @@ public class Program
 		}
 	}
 }
+
+//if else 
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int score = 98;
+		
+		if(score >=100)
+		{
+			Console.WriteLine("Level Completed!");
+		} 
+		else
+		{
+			Console.WriteLine("Try again!");
+		}
+	}
+}
+
+// if else and if else. similar to js
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int time = 15;
+		
+		if(time<10)
+		{
+			Console.WriteLine("Good morning!");
+		} 
+		else if(time<20)
+		{
+			Console.WriteLine("Good day!");
+		}
+		else
+		{
+			Console.WriteLine("Good evening!");
+		}
+	}
+}
