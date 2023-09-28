@@ -63,3 +63,43 @@ public class Program
 	}
 }
 //if condition is never false, the while loop will run forever
+
+
+//adding numbers via loops
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int sum = 0;
+		int num = 100;
+
+		while(num>=0)
+		{
+			sum+=num;
+			num--;
+		}
+
+		Console.WriteLine(sum);
+	}
+}
+
+//do while loop will run once regardless if the condition is false. then run as a regular while loop. ex
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		int i = 5;
+		
+		do
+		{
+			Console.WriteLine(i);
+			i++;
+		} while (i < 5);
+	}
+}
+
+//for loops are the go to method
