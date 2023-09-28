@@ -135,3 +135,55 @@ public class Program
 		}
 	}
 }
+
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		string country = "US";
+		int age = 42;
+
+		if ((country == "US" || country == "GB") &&(age >0 && age <=100))
+		{
+			Console.WriteLine("Welcome!");
+		}
+	}
+}
+
+// Explore the countries 
+//   
+// You're a tour manager and need a program that will identify small countries.
+// A country is considered small if its population is under 10000 and its area is under 10000 hectares. 
+// The given code takes population and area from as input. 
+//   
+// Task: 
+// Complete the code to output "small country" if both conditions are met. Don't output anything otherwise. 
+//   
+// Input Example 
+// 9955 
+// 7522 
+//   
+// Output Example 
+// small country
+
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        int population = Convert.ToInt32(Console.ReadLine());
+        int area = Convert.ToInt32(Console.ReadLine());
+        
+        //your code goes here
+        	
+        	if (population < 10000 && area < 10000)
+        	{
+        		Console.WriteLine("small country");
+        	}
+        
+        
+    }
+}
