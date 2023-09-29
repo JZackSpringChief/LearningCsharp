@@ -135,18 +135,29 @@ public class Program
     */
     static void Run(int num)
     {
-    	if(num == 1)
-    	{
-    		Console.WriteLine("Shooter");
-    	}
-    	else if (num == 2)
-    	{
-    		Console.WriteLine("Puzzle");
-    	}
-    	else if (num == 3)
-    	{
-    		Console.WriteLine("Snake");
-    	}
+    	// if(num == 1)
+    	// {
+    	// 	Console.WriteLine("Shooter");
+    	// }
+    	// else if (num == 2)
+    	// {
+    	// 	Console.WriteLine("Puzzle");
+    	// }
+    	// else if (num == 3)
+    	// {
+    	// 	Console.WriteLine("Snake");
+    	// }
+        switch(num)
+            case 1:
+            Console.WriteLine("Shooter");
+            break;
+            case 2:
+            Console.WriteLine("Puzzle");
+            break;
+            case 3:
+            Console.WriteLine("Snake");
+            break;
+            
     }
  
 }
