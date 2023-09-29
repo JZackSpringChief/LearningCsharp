@@ -164,4 +164,42 @@ public class Program
 
 //switch to case statemnt
 
+
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		double result = Perc(640,24);
+
+		Console.WriteLine($"Result is: {result}");
+	}
+	static double Perc(double num, int percentage)
+	{
+		double res = num*percentage/100;
+		return res;
+	}
+}
+
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        double score1 = Convert.ToInt32(Console.ReadLine());
+        double score2 = Convert.ToInt32(Console.ReadLine());
+        double score3 = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine(Average(score1,score2,score3));
+    }
+
+    //complete the method
+    static double Average(double num1, double num2, double num3)
+    {
+    			double avg = (num1+num2+num3) / 3;
+        		return avg;
+    }
+}
 //sept28
