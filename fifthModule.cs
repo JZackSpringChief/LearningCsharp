@@ -67,4 +67,90 @@ public class Program
 		Console.WriteLine("You age: " + age);
 	}
 }
+
+static void Main(string[] args)
+{
+    int x = 8;
+    int y = 17
+    Sum(x, y)
+}
+static void Sum(int a, int b)
+{
+    Console.WriteLine(a + b);
+}
+
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		Perc(640,24);
+	}
+	static void Perc(double num, int percentage)
+	{
+		double res = num*percentage/100;
+		Console.WriteLine(res);
+	}
+}
+
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		Discount("Tom", 1700);
+		Discount("Bob", 1300);
+	}
+	static void Discount(string name, double purchase)
+	{
+		if(purchase>=1500)
+		{
+			purchase*=0.85;
+		}
+
+		Console.WriteLine($"Customer: {name}");
+		Console.WriteLine($"Total: {purchase}");
+	}
+}
+
+
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        int number = Convert.ToInt32(Console.ReadLine());
+
+        Run(number);
+    }
+
+    //complete the method
+    /*
+    1. Shooter
+    2. Puzzle
+    3. Snake
+    */
+    static void Run(int num)
+    {
+    	if(num == 1)
+    	{
+    		Console.WriteLine("Shooter");
+    	}
+    	else if (num == 2)
+    	{
+    		Console.WriteLine("Puzzle");
+    	}
+    	else if (num == 3)
+    	{
+    		Console.WriteLine("Snake");
+    	}
+    }
+ 
+}
+
+//switch to case statemnt
+
 //sept28
