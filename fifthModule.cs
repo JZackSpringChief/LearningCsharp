@@ -25,4 +25,22 @@ public class Program
 
 //main method is the entry point of the program, we call our method inside the scope.
 
+//parameters and arguments
+
+using System;
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+        //parameters
+		Welcome("John");
+		Welcome("Tom");
+	}
+	static void Welcome(string name) 
+	{
+		Console.WriteLine("Welcome " + name);
+	}
+}
+
 //sept28
