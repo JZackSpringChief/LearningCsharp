@@ -36,3 +36,5 @@ bool isOpen = true; // or false denoted by keywords true or false. working with 
 //math with numbers follows real math rules BEDMAS
 // Console.WriteLine(); to generate output
 // using System; at begining and follow note at top.
+
+//sept 25
